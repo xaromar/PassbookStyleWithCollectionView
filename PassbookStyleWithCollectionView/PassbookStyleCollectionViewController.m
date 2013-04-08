@@ -34,6 +34,7 @@
 {
     [super viewDidLoad];
     self.couponSelected = false;
+    self.positionCouponSelected = -1;
     self.backgroundColors = [[NSMutableArray alloc]initWithCapacity:6];
     [self.backgroundColors addObject:[UIColor redColor]];
     [self.backgroundColors addObject:[UIColor orangeColor]];
@@ -115,7 +116,7 @@
     
     if(self.couponSelected){
         [self moveObjectFromIndex:0 toIndex:self.positionCouponSelected];
-        self.positionCouponSelected = nil;
+        self.positionCouponSelected = -1;
     }
     else{
         self.positionCouponSelected = indexPath.row;
