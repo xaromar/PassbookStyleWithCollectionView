@@ -17,7 +17,8 @@
 		471D6FA61712D20700FE87D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471D6FA51712D20700FE87D2 /* Default@2x.png */; };
 		471D6FA81712D20700FE87D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471D6FA71712D20700FE87D2 /* Default-568h@2x.png */; };
 		471D6FAB1712D20700FE87D2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471D6FA91712D20700FE87D2 /* MainStoryboard.storyboard */; };
-		471D6FAE1712D20700FE87D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471D6FAD1712D20700FE87D2 /* ViewController.m */; };
+		471D6FB61712D26800FE87D2 /* PassbookStyleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471D6FB51712D26800FE87D2 /* PassbookStyleCollectionViewController.m */; };
+		471D6FB81712D2CC00FE87D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471D6FB71712D2CC00FE87D2 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,9 @@
 		471D6FA51712D20700FE87D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		471D6FA71712D20700FE87D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		471D6FAA1712D20700FE87D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		471D6FAC1712D20700FE87D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		471D6FAD1712D20700FE87D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		471D6FB41712D26800FE87D2 /* PassbookStyleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassbookStyleCollectionViewController.h; sourceTree = "<group>"; };
+		471D6FB51712D26800FE87D2 /* PassbookStyleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassbookStyleCollectionViewController.m; sourceTree = "<group>"; };
+		471D6FB71712D2CC00FE87D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471D6FB81712D2CC00FE87D2 /* QuartzCore.framework in Frameworks */,
 				471D6F921712D20700FE87D2 /* UIKit.framework in Frameworks */,
 				471D6F941712D20700FE87D2 /* Foundation.framework in Frameworks */,
 				471D6F961712D20700FE87D2 /* CoreGraphics.framework in Frameworks */,
@@ -83,11 +86,11 @@
 		471D6F971712D20700FE87D2 /* PassbookStyleWithCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				471D6FB41712D26800FE87D2 /* PassbookStyleCollectionViewController.h */,
+				471D6FB51712D26800FE87D2 /* PassbookStyleCollectionViewController.m */,
 				471D6FA01712D20700FE87D2 /* AppDelegate.h */,
 				471D6FA11712D20700FE87D2 /* AppDelegate.m */,
 				471D6FA91712D20700FE87D2 /* MainStoryboard.storyboard */,
-				471D6FAC1712D20700FE87D2 /* ViewController.h */,
-				471D6FAD1712D20700FE87D2 /* ViewController.m */,
 				471D6F981712D20700FE87D2 /* Supporting Files */,
 			);
 			path = PassbookStyleWithCollectionView;
@@ -96,6 +99,7 @@
 		471D6F981712D20700FE87D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				471D6FB71712D2CC00FE87D2 /* QuartzCore.framework */,
 				471D6F991712D20700FE87D2 /* PassbookStyleWithCollectionView-Info.plist */,
 				471D6F9A1712D20700FE87D2 /* InfoPlist.strings */,
 				471D6F9D1712D20700FE87D2 /* main.m */,
@@ -175,7 +179,7 @@
 			files = (
 				471D6F9E1712D20700FE87D2 /* main.m in Sources */,
 				471D6FA21712D20700FE87D2 /* AppDelegate.m in Sources */,
-				471D6FAE1712D20700FE87D2 /* ViewController.m in Sources */,
+				471D6FB61712D26800FE87D2 /* PassbookStyleCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
