@@ -76,6 +76,7 @@
 		471D6F901712D20700FE87D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				471D6FB71712D2CC00FE87D2 /* QuartzCore.framework */,
 				471D6F911712D20700FE87D2 /* UIKit.framework */,
 				471D6F931712D20700FE87D2 /* Foundation.framework */,
 				471D6F951712D20700FE87D2 /* CoreGraphics.framework */,
@@ -88,8 +89,6 @@
 			children = (
 				471D6FB41712D26800FE87D2 /* PassbookStyleCollectionViewController.h */,
 				471D6FB51712D26800FE87D2 /* PassbookStyleCollectionViewController.m */,
-				471D6FA01712D20700FE87D2 /* AppDelegate.h */,
-				471D6FA11712D20700FE87D2 /* AppDelegate.m */,
 				471D6FA91712D20700FE87D2 /* MainStoryboard.storyboard */,
 				471D6F981712D20700FE87D2 /* Supporting Files */,
 			);
@@ -99,7 +98,8 @@
 		471D6F981712D20700FE87D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				471D6FB71712D2CC00FE87D2 /* QuartzCore.framework */,
+				471D6FA01712D20700FE87D2 /* AppDelegate.h */,
+				471D6FA11712D20700FE87D2 /* AppDelegate.m */,
 				471D6F991712D20700FE87D2 /* PassbookStyleWithCollectionView-Info.plist */,
 				471D6F9A1712D20700FE87D2 /* InfoPlist.strings */,
 				471D6F9D1712D20700FE87D2 /* main.m */,
@@ -302,6 +302,7 @@
 				471D6FB31712D20700FE87D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
